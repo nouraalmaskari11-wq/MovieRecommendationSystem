@@ -1,0 +1,34 @@
+[
+  {
+    "GenreId": 1,
+    "GenreName": "Action"
+  },
+  {
+    "GenreId": 2,
+    "GenreName": "Comedy"
+  },
+  {
+    "GenreId": 3,
+    "GenreName": "Sci-Fi"
+  },
+  {
+    "GenreId": 4,
+    "GenreName": "Drama"
+  },
+  {
+    "GenreId": 5,
+    "GenreName": "Thriller"
+  },
+  {
+    "GenreId": 6,
+    "GenreName": "Romance"
+  },
+  {
+    "GenreId": 7,
+    "GenreName": "Horror"
+  },
+  {
+    "GenreId": 8,
+    "GenreName": "Adventure"
+  }
+]

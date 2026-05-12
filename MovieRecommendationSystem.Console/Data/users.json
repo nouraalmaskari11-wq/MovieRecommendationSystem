@@ -1,0 +1,28 @@
+[
+  {
+    "Username": "admin",
+    "Password": "admin123",
+    "IsAdmin": true,
+    "AdminLevel": "Super",
+    "LastLogin": "0001-01-01T00:00:00",
+    "RegisteredAt": "2026-05-12T14:56:46.1191791+04:00",
+    "FavoriteGenres": [],
+    "WatchHistory": [],
+    "Ratings": {},
+    "Id": 1,
+    "Name": "System Administrator"
+  },
+  {
+    "Username": "noura",
+    "Password": "123",
+    "IsAdmin": false,
+    "AdminLevel": "",
+    "LastLogin": "2026-05-12T14:58:33.987111+04:00",
+    "RegisteredAt": "2026-05-12T14:58:15.9107582+04:00",
+    "FavoriteGenres": [],
+    "WatchHistory": [],
+    "Ratings": {},
+    "Id": 2,
+    "Name": "noura assam albalushi"
+  }
+]
