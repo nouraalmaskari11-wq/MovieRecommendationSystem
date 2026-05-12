@@ -1,8 +1,9 @@
 using MovieRecommendationSystem.Console.Models;
+using MovieRecommendationSystem.Console.Interfaces;
 
 namespace MovieRecommendationSystem.Console.Recommendation
 {
-    public class RecommendationEngine
+    public class RecommendationEngine : IRecommendable
     {
         private readonly ContentBasedFiltering _contentBased;
         private readonly CollaborativeFiltering _collaborative;

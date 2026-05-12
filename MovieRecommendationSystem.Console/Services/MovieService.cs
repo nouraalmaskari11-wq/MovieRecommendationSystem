@@ -1,4 +1,5 @@
 ﻿using System;
+using MovieRecommendationSystem.Console.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using MovieRecommendationSystem.Console.Models;
@@ -6,7 +7,7 @@ using MovieRecommendationSystem.Console.UI;
 
 namespace MovieRecommendationSystem.Console.Services
 {
-    public class MovieService
+    public class MovieService : ISearchable<Movie>
     {
         private readonly DataStorageService _storage;
         private List<Movie> _movies;
