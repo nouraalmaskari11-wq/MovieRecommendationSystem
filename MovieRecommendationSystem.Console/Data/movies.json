@@ -1,0 +1,909 @@
+[
+  {
+    "MovieId": 1,
+    "Title": "Inception",
+    "Description": "A thief who steals corporate secrets through dream-sharing technology.",
+    "ReleaseYear": 2010,
+    "AverageRating": 4.8,
+    "Director": "Christopher Nolan",
+    "Cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt"
+    ],
+    "Tags": [
+      "dream",
+      "heist"
+    ],
+    "Genres": [
+      1,
+      3,
+      5
+    ]
+  },
+  {
+    "MovieId": 2,
+    "Title": "The Dark Knight",
+    "Description": "Batman faces the Joker, a criminal mastermind.",
+    "ReleaseYear": 2008,
+    "AverageRating": 4.9,
+    "Director": "Christopher Nolan",
+    "Cast": [
+      "Christian Bale",
+      "Heath Ledger"
+    ],
+    "Tags": [
+      "superhero",
+      "dark"
+    ],
+    "Genres": [
+      1,
+      5
+    ]
+  },
+  {
+    "MovieId": 3,
+    "Title": "Interstellar",
+    "Description": "A team of explorers travel through a wormhole in space.",
+    "ReleaseYear": 2014,
+    "AverageRating": 4.7,
+    "Director": "Christopher Nolan",
+    "Cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway"
+    ],
+    "Tags": [
+      "space",
+      "time travel"
+    ],
+    "Genres": [
+      3,
+      4
+    ]
+  },
+  {
+    "MovieId": 4,
+    "Title": "Sample Movie 4",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2004,
+    "AverageRating": 3.4,
+    "Director": "Director 5",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      5
+    ]
+  },
+  {
+    "MovieId": 5,
+    "Title": "Sample Movie 5",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2005,
+    "AverageRating": 3.5,
+    "Director": "Director 6",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      6
+    ]
+  },
+  {
+    "MovieId": 6,
+    "Title": "Sample Movie 6",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2006,
+    "AverageRating": 3.6,
+    "Director": "Director 7",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      7
+    ]
+  },
+  {
+    "MovieId": 7,
+    "Title": "Sample Movie 7",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2007,
+    "AverageRating": 3.7,
+    "Director": "Director 8",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      8
+    ]
+  },
+  {
+    "MovieId": 8,
+    "Title": "Sample Movie 8",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2008,
+    "AverageRating": 3.8,
+    "Director": "Director 9",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      1
+    ]
+  },
+  {
+    "MovieId": 9,
+    "Title": "Sample Movie 9",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2009,
+    "AverageRating": 3.9,
+    "Director": "Director 10",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      2
+    ]
+  },
+  {
+    "MovieId": 10,
+    "Title": "Sample Movie 10",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2010,
+    "AverageRating": 4.0,
+    "Director": "Director 1",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      3
+    ]
+  },
+  {
+    "MovieId": 11,
+    "Title": "Sample Movie 11",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2011,
+    "AverageRating": 4.1,
+    "Director": "Director 2",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      4
+    ]
+  },
+  {
+    "MovieId": 12,
+    "Title": "Sample Movie 12",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2012,
+    "AverageRating": 4.2,
+    "Director": "Director 3",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      5
+    ]
+  },
+  {
+    "MovieId": 13,
+    "Title": "Sample Movie 13",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2013,
+    "AverageRating": 4.3,
+    "Director": "Director 4",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      6
+    ]
+  },
+  {
+    "MovieId": 14,
+    "Title": "Sample Movie 14",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2014,
+    "AverageRating": 4.4,
+    "Director": "Director 5",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      7
+    ]
+  },
+  {
+    "MovieId": 15,
+    "Title": "Sample Movie 15",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2015,
+    "AverageRating": 4.5,
+    "Director": "Director 6",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      8
+    ]
+  },
+  {
+    "MovieId": 16,
+    "Title": "Sample Movie 16",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2016,
+    "AverageRating": 4.6,
+    "Director": "Director 7",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      1
+    ]
+  },
+  {
+    "MovieId": 17,
+    "Title": "Sample Movie 17",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2017,
+    "AverageRating": 4.7,
+    "Director": "Director 8",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      2
+    ]
+  },
+  {
+    "MovieId": 18,
+    "Title": "Sample Movie 18",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2018,
+    "AverageRating": 4.8,
+    "Director": "Director 9",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      3
+    ]
+  },
+  {
+    "MovieId": 19,
+    "Title": "Sample Movie 19",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2019,
+    "AverageRating": 4.9,
+    "Director": "Director 10",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      4
+    ]
+  },
+  {
+    "MovieId": 20,
+    "Title": "Sample Movie 20",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2020,
+    "AverageRating": 3.0,
+    "Director": "Director 1",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      5
+    ]
+  },
+  {
+    "MovieId": 21,
+    "Title": "Sample Movie 21",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2021,
+    "AverageRating": 3.1,
+    "Director": "Director 2",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      6
+    ]
+  },
+  {
+    "MovieId": 22,
+    "Title": "Sample Movie 22",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2022,
+    "AverageRating": 3.2,
+    "Director": "Director 3",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      7
+    ]
+  },
+  {
+    "MovieId": 23,
+    "Title": "Sample Movie 23",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2023,
+    "AverageRating": 3.3,
+    "Director": "Director 4",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      8
+    ]
+  },
+  {
+    "MovieId": 24,
+    "Title": "Sample Movie 24",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2024,
+    "AverageRating": 3.4,
+    "Director": "Director 5",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      1
+    ]
+  },
+  {
+    "MovieId": 25,
+    "Title": "Sample Movie 25",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2000,
+    "AverageRating": 3.5,
+    "Director": "Director 6",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      2
+    ]
+  },
+  {
+    "MovieId": 26,
+    "Title": "Sample Movie 26",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2001,
+    "AverageRating": 3.6,
+    "Director": "Director 7",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      3
+    ]
+  },
+  {
+    "MovieId": 27,
+    "Title": "Sample Movie 27",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2002,
+    "AverageRating": 3.7,
+    "Director": "Director 8",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      4
+    ]
+  },
+  {
+    "MovieId": 28,
+    "Title": "Sample Movie 28",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2003,
+    "AverageRating": 3.8,
+    "Director": "Director 9",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      5
+    ]
+  },
+  {
+    "MovieId": 29,
+    "Title": "Sample Movie 29",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2004,
+    "AverageRating": 3.9,
+    "Director": "Director 10",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      6
+    ]
+  },
+  {
+    "MovieId": 30,
+    "Title": "Sample Movie 30",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2005,
+    "AverageRating": 4.0,
+    "Director": "Director 1",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      7
+    ]
+  },
+  {
+    "MovieId": 31,
+    "Title": "Sample Movie 31",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2006,
+    "AverageRating": 4.1,
+    "Director": "Director 2",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      8
+    ]
+  },
+  {
+    "MovieId": 32,
+    "Title": "Sample Movie 32",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2007,
+    "AverageRating": 4.2,
+    "Director": "Director 3",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      1
+    ]
+  },
+  {
+    "MovieId": 33,
+    "Title": "Sample Movie 33",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2008,
+    "AverageRating": 4.3,
+    "Director": "Director 4",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      2
+    ]
+  },
+  {
+    "MovieId": 34,
+    "Title": "Sample Movie 34",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2009,
+    "AverageRating": 4.4,
+    "Director": "Director 5",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      3
+    ]
+  },
+  {
+    "MovieId": 35,
+    "Title": "Sample Movie 35",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2010,
+    "AverageRating": 4.5,
+    "Director": "Director 6",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      4
+    ]
+  },
+  {
+    "MovieId": 36,
+    "Title": "Sample Movie 36",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2011,
+    "AverageRating": 4.6,
+    "Director": "Director 7",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      5
+    ]
+  },
+  {
+    "MovieId": 37,
+    "Title": "Sample Movie 37",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2012,
+    "AverageRating": 4.7,
+    "Director": "Director 8",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      6
+    ]
+  },
+  {
+    "MovieId": 38,
+    "Title": "Sample Movie 38",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2013,
+    "AverageRating": 4.8,
+    "Director": "Director 9",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      7
+    ]
+  },
+  {
+    "MovieId": 39,
+    "Title": "Sample Movie 39",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2014,
+    "AverageRating": 4.9,
+    "Director": "Director 10",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      8
+    ]
+  },
+  {
+    "MovieId": 40,
+    "Title": "Sample Movie 40",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2015,
+    "AverageRating": 3.0,
+    "Director": "Director 1",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      1
+    ]
+  },
+  {
+    "MovieId": 41,
+    "Title": "Sample Movie 41",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2016,
+    "AverageRating": 3.1,
+    "Director": "Director 2",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      2
+    ]
+  },
+  {
+    "MovieId": 42,
+    "Title": "Sample Movie 42",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2017,
+    "AverageRating": 3.2,
+    "Director": "Director 3",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      3
+    ]
+  },
+  {
+    "MovieId": 43,
+    "Title": "Sample Movie 43",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2018,
+    "AverageRating": 3.3,
+    "Director": "Director 4",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      4
+    ]
+  },
+  {
+    "MovieId": 44,
+    "Title": "Sample Movie 44",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2019,
+    "AverageRating": 3.4,
+    "Director": "Director 5",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      5
+    ]
+  },
+  {
+    "MovieId": 45,
+    "Title": "Sample Movie 45",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2020,
+    "AverageRating": 3.5,
+    "Director": "Director 6",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      6
+    ]
+  },
+  {
+    "MovieId": 46,
+    "Title": "Sample Movie 46",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2021,
+    "AverageRating": 3.6,
+    "Director": "Director 7",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      7
+    ]
+  },
+  {
+    "MovieId": 47,
+    "Title": "Sample Movie 47",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2022,
+    "AverageRating": 3.7,
+    "Director": "Director 8",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      8
+    ]
+  },
+  {
+    "MovieId": 48,
+    "Title": "Sample Movie 48",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2023,
+    "AverageRating": 3.8,
+    "Director": "Director 9",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      1
+    ]
+  },
+  {
+    "MovieId": 49,
+    "Title": "Sample Movie 49",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2024,
+    "AverageRating": 3.9,
+    "Director": "Director 10",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      2
+    ]
+  },
+  {
+    "MovieId": 50,
+    "Title": "Sample Movie 50",
+    "Description": "This is a sample movie for demonstration purposes.",
+    "ReleaseYear": 2000,
+    "AverageRating": 4.0,
+    "Director": "Director 1",
+    "Cast": [
+      "Actor 1",
+      "Actor 2"
+    ],
+    "Tags": [
+      "sample"
+    ],
+    "Genres": [
+      3
+    ]
+  }
+]

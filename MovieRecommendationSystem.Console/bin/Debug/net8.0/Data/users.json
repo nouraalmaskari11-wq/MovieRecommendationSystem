@@ -1,0 +1,28 @@
+[
+  {
+    "Username": "admin",
+    "Password": "admin123",
+    "IsAdmin": true,
+    "AdminLevel": "Super",
+    "LastLogin": "0001-01-01T00:00:00",
+    "RegisteredAt": "2026-05-12T15:00:51.2988586+04:00",
+    "FavoriteGenres": [],
+    "WatchHistory": [],
+    "Ratings": {},
+    "Id": 1,
+    "Name": "System Administrator"
+  },
+  {
+    "Username": "et",
+    "Password": "12",
+    "IsAdmin": false,
+    "AdminLevel": "",
+    "LastLogin": "0001-01-01T00:00:00",
+    "RegisteredAt": "2026-05-12T15:04:04.6770641+04:00",
+    "FavoriteGenres": [],
+    "WatchHistory": [],
+    "Ratings": {},
+    "Id": 2,
+    "Name": "er re aj"
+  }
+]
