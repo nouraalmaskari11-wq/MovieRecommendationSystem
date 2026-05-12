@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MovieRecommendationSystem.Console",
+    "\\MovieRecommendationSystem.Console\\Data",
+    "\\MovieRecommendationSystem.Console\\Models",
+    "\\MovieRecommendationSystem.Console\\Recommendation",
+    "\\MovieRecommendationSystem.Console\\Services",
+    "\\MovieRecommendationSystem.Console\\UI"
+  ],
+  "SelectedNode": "\\MovieRecommendationSystem.Console\\Data\\.gitkeep",
+  "PreviewInSolutionExplorer": false
+}
