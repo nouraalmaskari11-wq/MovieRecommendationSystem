@@ -1,0 +1,7 @@
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.json
+!Data/*.json
