@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "ImG/XLpCXdo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj",
+  "projectFilePath": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noura\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.4\\microsoft.bcl.asyncinterfaces.9.0.4.nupkg.sha512",
     "C:\\Users\\noura\\.nuget\\packages\\microsoft.ml\\5.0.0\\microsoft.ml.5.0.0.nupkg.sha512",
