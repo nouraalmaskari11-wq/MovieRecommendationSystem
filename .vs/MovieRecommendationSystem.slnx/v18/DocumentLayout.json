@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Data\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Data\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\UI\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\UI\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\CollaborativeFiltering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Recommendation\\CollaborativeFiltering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\MovieService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Services\\MovieService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\ContentBasedFiltering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Recommendation\\ContentBasedFiltering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\SimilarityCalculator.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Recommendation\\SimilarityCalculator.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\DataStorageService.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Services\\DataStorageService.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Models\\Genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Models\\Rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Models\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\User.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Models\\User.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Person.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Models\\Person.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,149 +35,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitkeep",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Data\\.gitkeep",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Data\\.gitkeep",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Data\\.gitkeep",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Data\\.gitkeep",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-12T10:10:12.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitkeep",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\UI\\.gitkeep",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\UI\\.gitkeep",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\UI\\.gitkeep",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\UI\\.gitkeep",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-12T10:09:56.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "RecommendationEngine.cs",
               "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
               "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwDIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:24:00.778Z",
+              "WhenOpened": "2026-05-12T12:46:51.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\MovieService.cs",
+              "RelativeToolTip": "MovieRecommendationSystem.Console\\Services\\MovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:45:28.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDataStorage.cs",
+              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
+              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
+              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
+              "RelativeToolTip": "MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:44:29.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CollaborativeFiltering.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\CollaborativeFiltering.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Recommendation\\CollaborativeFiltering.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\CollaborativeFiltering.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Recommendation\\CollaborativeFiltering.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwE0AAAABAAAAAAAAAA==",
+              "Title": "ISearchable.cs",
+              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
+              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
+              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
+              "RelativeToolTip": "MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:23:33.294Z"
+              "WhenOpened": "2026-05-12T12:43:39.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ContentBasedFiltering.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\ContentBasedFiltering.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Recommendation\\ContentBasedFiltering.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\ContentBasedFiltering.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Recommendation\\ContentBasedFiltering.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:22:56.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SimilarityCalculator.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\SimilarityCalculator.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Recommendation\\SimilarityCalculator.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\SimilarityCalculator.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Recommendation\\SimilarityCalculator.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:22:31.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAUwFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:21:51.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Models\\Genre.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Genre.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Models\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:17:01.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Rating.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Rating.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Models\\Rating.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Rating.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Models\\Rating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:16:41.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Movie.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:15:47.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\User.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\User.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:14:42.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Models\\Person.cs",
-              "RelativeToolTip": "MovieRecommendationSystem.Console\\Models\\Person.cs",
+              "Title": "IRecommendable.cs",
+              "DocumentMoniker": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
+              "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
+              "ToolTip": "C:\\Users\\noura\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
+              "RelativeToolTip": "MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:09:20.276Z"
+              "WhenOpened": "2026-05-12T12:43:10.784Z",
+              "EditorCaption": ""
             }
           ]
         }
