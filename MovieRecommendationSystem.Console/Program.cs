@@ -22,6 +22,7 @@ namespace MovieRecommendationSystem.Console
             System.Console.Title = "🎬 AI Movie Recommendation System";
 
             _storage = new DataStorageService();
+            _storage.SeedSampleData();
             _authService = new AuthService(_storage);
             _movieService = new MovieService(_storage);
             _ratingService = new RatingService(_storage, _movieService);
@@ -80,7 +81,7 @@ namespace MovieRecommendationSystem.Console
         static void ShowDashboard()
         {
             ConsoleHelper.ShowUserMenu();
-            int choice = ConsoleHelper.GetIntInput("👉 Choose an option: ", 1, 6);
+            int choice = ConsoleHelper.GetIntInput("👉 Choose an option: ", 1, 7);
 
             switch (choice)
             {
@@ -100,6 +101,9 @@ namespace MovieRecommendationSystem.Console
                     ShowWatchHistory();
                     break;
                 case 6:
+                    RemoveRating();
+                    break;
+                case 7:
                     Logout();
                     break;
             }
@@ -218,7 +222,18 @@ namespace MovieRecommendationSystem.Console
             _ratingService.ShowUserRatingHistory(_currentUser, _movieService);
             ConsoleHelper.PressAnyKey();
         }
+        static void RemoveRating()
+        {
+            if (_movieService == null || _ratingService == null || _currentUser == null) return;
 
+            var movies = _movieService.GetAllMovies();
+            ConsoleHelper.PrintMovies(movies.Take(20).ToList(), "🗑️ REMOVE A RATING");
+
+            int movieId = ConsoleHelper.GetIntInput("🎬 Enter movie ID to remove rating: ", 1, movies.Count);
+            _ratingService.RemoveRating(_currentUser, movieId);
+            InitializeRecommendationEngine();
+            ConsoleHelper.PressAnyKey();
+        }
         static void Logout()
         {
             _currentUser = null;
@@ -226,5 +241,6 @@ namespace MovieRecommendationSystem.Console
             ConsoleHelper.WriteLineColor("✅ You have been logged out.", ConsoleColor.Yellow);
             ConsoleHelper.PressAnyKey();
         }
+
     }
 }

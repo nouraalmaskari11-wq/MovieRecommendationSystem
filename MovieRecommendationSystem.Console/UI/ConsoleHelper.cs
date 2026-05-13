@@ -111,12 +111,13 @@ namespace MovieRecommendationSystem.Console.UI
         public static void ShowUserMenu()
         {
             PrintHeader("👤 USER DASHBOARD");
-            System.Console.WriteLine("   1️⃣  Browse All Movies");
-            System.Console.WriteLine("   2️⃣  Search Movies");
-            System.Console.WriteLine("   3️⃣  Rate a Movie");
-            System.Console.WriteLine("   4️⃣  Get AI Recommendations");
-            System.Console.WriteLine("   5️⃣  My Watch History");
-            System.Console.WriteLine("   6️⃣  Logout");
+            System.Console.WriteLine("   1️)  Browse All Movies");
+            System.Console.WriteLine("   2️)  Search Movies");
+            System.Console.WriteLine("   3️)  Rate a Movie");
+            System.Console.WriteLine("   4️) Get AI Recommendations");
+            System.Console.WriteLine("   5️) My Watch History");
+            System.Console.WriteLine("   6️) Remove a Rating");
+            System.Console.WriteLine("   7)  Logout");
             System.Console.WriteLine();
         }
 

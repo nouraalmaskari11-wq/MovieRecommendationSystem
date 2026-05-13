@@ -81,5 +81,34 @@ namespace MovieRecommendationSystem.Console.Services
             }
             System.Console.WriteLine();
         }
+        public void RemoveRating(User user, int movieId)
+        {
+            var movie = _movieService.GetMovieById(movieId);
+            if (movie == null)
+            {
+                ConsoleHelper.WriteLineColor("❌ Movie not found!", ConsoleColor.Red);
+                return;
+            }
+
+            var ratingToRemove = _ratings.FirstOrDefault(r => r.UserId == user.Id && r.MovieId == movieId);
+
+            if (ratingToRemove == null)
+            {
+                ConsoleHelper.WriteLineColor($"❌ You haven't rated '{movie.Title}' yet!", ConsoleColor.Yellow);
+                return;
+            }
+
+            _ratings.Remove(ratingToRemove);
+
+            if (user.Ratings.ContainsKey(movieId))
+            {
+                user.Ratings.Remove(movieId);
+            }
+
+            _storage.SaveRatings(_ratings);
+            UpdateMovieAverageRating(movieId);
+
+            ConsoleHelper.WriteLineColor($"✅ Removed your rating for '{movie.Title}'!", ConsoleColor.Green);
+        }
     }
 }

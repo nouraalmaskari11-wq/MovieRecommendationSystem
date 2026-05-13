@@ -82,5 +82,79 @@ namespace MovieRecommendationSystem.Console.Services
 			string json = File.ReadAllText(filePath);
 			return JsonConvert.DeserializeObject<List<Genre>>(json) ?? new List<Genre>();
 		}
-	}
+        public void SeedSampleData()
+        {
+            // نجيب البيانات اللي موجودة
+            var users = LoadUsers();
+            var movies = LoadMovies();
+            var ratings = LoadRatings();
+            var random = new Random();
+
+            // 1. إذا كان عدد المستخدمين أقل من 10، نضيف 9 مستخدمين جدد
+            if (users.Count < 10)
+            {
+                for (int i = users.Count + 1; i <= 10; i++)
+                {
+                    var newUser = new User
+                    {
+                        Id = i,
+                        Username = $"user{i}",
+                        Password = "pass123",
+                        Name = $"User {i}",
+                        IsAdmin = false,
+                        RegisteredAt = DateTime.Now,
+                        FavoriteGenres = new List<int> { random.Next(1, 9) },
+                        WatchHistory = new List<int>(),
+                        Ratings = new Dictionary<int, int>()
+                    };
+                    users.Add(newUser);
+                }
+                SaveUsers(users);
+                System.Console.WriteLine("✅ Added 9 new users!");
+            }
+
+            // 2. إذا كان عدد التقييمات أقل من 100، نضيف 100 تقييم
+            if (ratings.Count < 100)
+            {
+                int nextId = ratings.Count > 0 ? ratings.Max(r => r.RatingId) + 1 : 1;
+
+                for (int i = 0; i < 100; i++)
+                {
+                    int userId = random.Next(1, users.Count + 1);
+                    int movieId = random.Next(1, movies.Count + 1);
+                    int score = random.Next(1, 6);
+
+                    // نتأكد إنه ما في تقييم مكرر
+                    bool exists = ratings.Any(r => r.UserId == userId && r.MovieId == movieId);
+                    if (!exists)
+                    {
+                        ratings.Add(new Rating
+                        {
+                            RatingId = nextId++,
+                            UserId = userId,
+                            MovieId = movieId,
+                            Score = score,
+                            RatedAt = DateTime.Now.AddDays(-random.Next(1, 30))
+                        });
+                    }
+                }
+                SaveRatings(ratings);
+                System.Console.WriteLine("✅ Added 100 sample ratings!");
+            }
+
+            // 3. نحدث تقييمات كل مستخدم
+            foreach (var user in users)
+            {
+                var userRatings = ratings.Where(r => r.UserId == user.Id).ToList();
+                foreach (var rating in userRatings)
+                {
+                    if (!user.Ratings.ContainsKey(rating.MovieId))
+                    {
+                        user.Ratings.Add(rating.MovieId, rating.Score);
+                    }
+                }
+            }
+            SaveUsers(users);
+        }
+    }
 }
