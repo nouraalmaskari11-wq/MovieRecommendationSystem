@@ -40,24 +40,24 @@ namespace MovieRecommendationSystem.Console.Services
             };
             _users.Add(admin);
             _storage.SaveUsers(_users);
-            ConsoleHelper.WriteLineColor("✅ Default admin created: Username = admin, Password = admin123", ConsoleColor.Yellow);
+            ConsoleHelper.WriteLineColor("Default admin created: Username = admin, Password = admin123", ConsoleColor.Yellow);
         }
 
         public User Register()
         {
-            ConsoleHelper.PrintHeader("📝 REGISTRATION");
+            ConsoleHelper.PrintHeader("REGISTRATION");
 
-            string username = ConsoleHelper.GetStringInput("👤 Enter username: ");
+            string username = ConsoleHelper.GetStringInput("Enter username: ");
 
             if (_users.Any(u => u.Username == username))
             {
-                ConsoleHelper.WriteLineColor("❌ Username already exists!", ConsoleColor.Red);
+                ConsoleHelper.WriteLineColor("Username already exists!", ConsoleColor.Red);
                 ConsoleHelper.PressAnyKey();
                 return null;
             }
 
-            string password = ConsoleHelper.GetStringInput("🔒 Enter password: ");
-            string name = ConsoleHelper.GetStringInput("📛 Enter your full name: ");
+            string password = ConsoleHelper.GetStringInput("Enter password: ");
+            string name = ConsoleHelper.GetStringInput("Enter your full name: ");
 
             int newId = _users.Count > 0 ? _users.Max(u => u.Id) + 1 : 2;
 
@@ -77,23 +77,23 @@ namespace MovieRecommendationSystem.Console.Services
             _users.Add(newUser);
             _storage.SaveUsers(_users);
 
-            ConsoleHelper.WriteLineColor("✅ Registration successful! Please login.", ConsoleColor.Green);
+            ConsoleHelper.WriteLineColor("Registration successful! Please login.", ConsoleColor.Green);
             ConsoleHelper.PressAnyKey();
             return newUser;
         }
 
         public User Login()
         {
-            ConsoleHelper.PrintHeader("🔐 LOGIN");
+            ConsoleHelper.PrintHeader("LOGIN");
 
-            string username = ConsoleHelper.GetStringInput("👤 Username: ");
-            string password = ConsoleHelper.GetStringInput("🔒 Password: ");
+            string username = ConsoleHelper.GetStringInput("Username: ");
+            string password = ConsoleHelper.GetStringInput("Password: ");
 
             var user = _users.FirstOrDefault(u => u.Username == username && u.Password == password);
 
             if (user == null)
             {
-                ConsoleHelper.WriteLineColor("❌ Invalid username or password!", ConsoleColor.Red);
+                ConsoleHelper.WriteLineColor("Invalid username or password!", ConsoleColor.Red);
                 ConsoleHelper.PressAnyKey();
                 return null;
             }
@@ -101,7 +101,7 @@ namespace MovieRecommendationSystem.Console.Services
             user.LastLogin = DateTime.Now;
             _storage.SaveUsers(_users);
 
-            ConsoleHelper.WriteLineColor($"✅ Welcome back, {user.Name}!", ConsoleColor.Green);
+            ConsoleHelper.WriteLineColor($"Welcome back, {user.Name}!", ConsoleColor.Green);
             ConsoleHelper.PressAnyKey();
             return user;
         }

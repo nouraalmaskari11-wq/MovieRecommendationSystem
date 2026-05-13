@@ -51,7 +51,7 @@ namespace MovieRecommendationSystem.Console.Services
 
             _storage.SaveRatings(_ratings);
             UpdateMovieAverageRating(movieId);
-            ConsoleHelper.WriteLineColor($"✅ You rated '{movie.Title}' {score}/5!", ConsoleColor.Green);
+            ConsoleHelper.WriteLineColor($"You rated '{movie.Title}' {score}/5!", ConsoleColor.Green);
         }
 
         private void UpdateMovieAverageRating(int movieId)
@@ -69,7 +69,7 @@ namespace MovieRecommendationSystem.Console.Services
             var userRatings = _ratings.Where(r => r.UserId == user.Id).ToList();
             if (!userRatings.Any())
             {
-                ConsoleHelper.WriteLineColor("❌ You haven't rated any movies yet!", ConsoleColor.Yellow);
+                ConsoleHelper.WriteLineColor("You haven't rated any movies yet!", ConsoleColor.Yellow);
                 return;
             }
 
@@ -77,7 +77,7 @@ namespace MovieRecommendationSystem.Console.Services
             foreach (var rating in userRatings)
             {
                 var movie = movieService.GetMovieById(rating.MovieId);
-                System.Console.WriteLine($"🎬 {movie?.Title}: {rating.Score}/5 ⭐");
+                System.Console.WriteLine($"{movie?.Title}: {rating.Score}/5");
             }
             System.Console.WriteLine();
         }
@@ -86,7 +86,7 @@ namespace MovieRecommendationSystem.Console.Services
             var movie = _movieService.GetMovieById(movieId);
             if (movie == null)
             {
-                ConsoleHelper.WriteLineColor("❌ Movie not found!", ConsoleColor.Red);
+                ConsoleHelper.WriteLineColor("Movie not found!", ConsoleColor.Red);
                 return;
             }
 
@@ -94,7 +94,7 @@ namespace MovieRecommendationSystem.Console.Services
 
             if (ratingToRemove == null)
             {
-                ConsoleHelper.WriteLineColor($"❌ You haven't rated '{movie.Title}' yet!", ConsoleColor.Yellow);
+                ConsoleHelper.WriteLineColor($"You haven't rated '{movie.Title}' yet!", ConsoleColor.Yellow);
                 return;
             }
 
@@ -108,7 +108,7 @@ namespace MovieRecommendationSystem.Console.Services
             _storage.SaveRatings(_ratings);
             UpdateMovieAverageRating(movieId);
 
-            ConsoleHelper.WriteLineColor($"✅ Removed your rating for '{movie.Title}'!", ConsoleColor.Green);
+            ConsoleHelper.WriteLineColor($"Removed your rating for '{movie.Title}'!", ConsoleColor.Green);
         }
     }
 }

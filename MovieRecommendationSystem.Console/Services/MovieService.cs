@@ -110,11 +110,11 @@ namespace MovieRecommendationSystem.Console.Services
 
         public void DisplayMovieDetails(Movie movie)
         {
-            System.Console.WriteLine($"\n📽️  {movie.Title} ({movie.ReleaseYear})");
-            System.Console.WriteLine($"   🎬 Director: {movie.Director}");
-            System.Console.WriteLine($"   ⭐ Rating: {movie.AverageRating:F1}/5");
-            System.Console.WriteLine($"   📝 Description: {movie.Description}");
-            System.Console.WriteLine($"   🏷️  Genres: {string.Join(", ", movie.Genres.Select(g => GetGenreName(g)))}");
+            System.Console.WriteLine($"\n{movie.Title} ({movie.ReleaseYear})");
+            System.Console.WriteLine($"Director: {movie.Director}");
+            System.Console.WriteLine($"Rating: {movie.AverageRating:F1}/5");
+            System.Console.WriteLine($"Description: {movie.Description}");
+            System.Console.WriteLine($"Genres: {string.Join(", ", movie.Genres.Select(g => GetGenreName(g)))}");
             System.Console.WriteLine();
         }
     }
