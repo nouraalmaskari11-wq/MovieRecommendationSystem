@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using MovieRecommendationSystem.Console.Models;
 using MovieRecommendationSystem.Console.Interfaces;
 
@@ -47,6 +50,12 @@ namespace MovieRecommendationSystem.Console.Recommendation
                 .ToList();
 
             return results;
+        }
+
+        // هذي الدالة الجديدة عشان يشتغل الـ Interface
+        public List<(Models.Movie movie, double score)> GetRecommendations(Models.User user, int topN = 5)
+        {
+            return GetHybridRecommendations(user, topN);
         }
     }
 }
