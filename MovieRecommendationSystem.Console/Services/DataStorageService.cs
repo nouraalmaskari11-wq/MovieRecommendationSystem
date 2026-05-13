@@ -110,7 +110,7 @@ namespace MovieRecommendationSystem.Console.Services
                     users.Add(newUser);
                 }
                 SaveUsers(users);
-                System.Console.WriteLine("✅ Added 9 new users!");
+                System.Console.WriteLine("Added 9 new users!");
             }
 
             // 2. إذا كان عدد التقييمات أقل من 100، نضيف 100 تقييم
@@ -139,7 +139,7 @@ namespace MovieRecommendationSystem.Console.Services
                     }
                 }
                 SaveRatings(ratings);
-                System.Console.WriteLine("✅ Added 100 sample ratings!");
+                System.Console.WriteLine("Added 100 sample ratings!");
             }
 
             // 3. نحدث تقييمات كل مستخدم
