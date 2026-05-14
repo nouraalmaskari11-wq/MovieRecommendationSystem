@@ -110,5 +110,12 @@ namespace MovieRecommendationSystem.Console.Services
 
             ConsoleHelper.WriteLineColor($"Removed your rating for '{movie.Title}'!", ConsoleColor.Green);
         }
+        public List<Rating> GetRecentlyRated(int userId, int topN = 5)
+        {
+            return _ratings.Where(r => r.UserId == userId)
+                           .OrderByDescending(r => r.RatedAt)
+                           .Take(topN)
+                           .ToList();
+        }
     }
 }

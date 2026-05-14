@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using MovieRecommendationSystem.Console.Models;
 using MovieRecommendationSystem.Console.Services;
@@ -22,10 +23,10 @@ namespace MovieRecommendationSystem.Console
             System.Console.Title = "AI Movie Recommendation System";
 
             _storage = new DataStorageService();
-            _storage.SeedSampleData();
             _authService = new AuthService(_storage);
             _movieService = new MovieService(_storage);
             _ratingService = new RatingService(_storage, _movieService);
+            _storage.SeedSampleData();
 
             Run();
         }
@@ -81,7 +82,7 @@ namespace MovieRecommendationSystem.Console
         static void ShowDashboard()
         {
             ConsoleHelper.ShowUserMenu();
-            int choice = ConsoleHelper.GetIntInput("Choose an option: ", 1, 7);
+            int choice = ConsoleHelper.GetIntInput("Choose an option: ", 1, 10);
 
             switch (choice)
             {
@@ -104,6 +105,15 @@ namespace MovieRecommendationSystem.Console
                     RemoveRating();
                     break;
                 case 7:
+                    ShowTrendingMovies();
+                    break;
+                case 8:
+                    ShowRecentlyWatched();
+                    break;
+                case 9:
+                    ExportRecommendations();
+                    break;
+                case 10:
                     Logout();
                     break;
             }
@@ -195,23 +205,35 @@ namespace MovieRecommendationSystem.Console
         {
             if (_recommendationEngine == null || _currentUser == null)
             {
-                ConsoleHelper.WriteLineColor("Please rate some movies first to get recommendations!", ConsoleColor.Yellow);
+                ConsoleHelper.WriteLineColor("  Please rate some movies first to get recommendations!", ConsoleColor.Yellow);
                 ConsoleHelper.PressAnyKey();
                 return;
             }
 
-            ConsoleHelper.WriteLineColor("Analyzing your preferences...", ConsoleColor.Cyan);
+            ConsoleHelper.WriteLineColor(" AI Analyzing your preferences...", ConsoleColor.Cyan);
             System.Threading.Thread.Sleep(1000);
 
-            var recommendations = _recommendationEngine.GetHybridRecommendations(_currentUser, 5);
+            var recommendations = _recommendationEngine.GetRecommendationsWithConfidence(_currentUser, 5);
 
             if (recommendations.Any())
             {
-                ConsoleHelper.PrintRecommendations(recommendations);
+                ConsoleHelper.PrintHeader("  AI RECOMMENDATIONS WITH CONFIDENCE");
+                int rank = 1;
+                foreach (var rec in recommendations)
+                {
+                    var movie = rec.movie;
+                    var score = rec.score;
+                    var confidence = rec.confidence;
+
+                    System.Console.WriteLine($"{rank++}. {movie.Title} ({movie.ReleaseYear})");
+                    System.Console.WriteLine($"   Movie Rating: {movie.AverageRating}/5");
+                    System.Console.WriteLine($"   AI Confidence: {confidence:F0}% match");
+                    System.Console.WriteLine();
+                }
             }
             else
             {
-                ConsoleHelper.WriteLineColor("No recommendations available. Try rating more movies!", ConsoleColor.Yellow);
+                ConsoleHelper.WriteLineColor(" No recommendations available. Try rating more movies!", ConsoleColor.Yellow);
             }
             ConsoleHelper.PressAnyKey();
         }
@@ -234,6 +256,13 @@ namespace MovieRecommendationSystem.Console
             InitializeRecommendationEngine();
             ConsoleHelper.PressAnyKey();
         }
+        static void ShowTrendingMovies()
+        {
+            var trending = _movieService?.GetTrendingMovies(5);
+            ConsoleHelper.PrintMovies(trending, " TRENDING MOVIES");
+            ConsoleHelper.PressAnyKey();
+        }
+
         static void Logout()
         {
             _currentUser = null;
@@ -241,6 +270,66 @@ namespace MovieRecommendationSystem.Console
             ConsoleHelper.WriteLineColor("You have been logged out.", ConsoleColor.Yellow);
             ConsoleHelper.PressAnyKey();
         }
+        static void ShowRecentlyWatched()
+        {
+            if (_ratingService == null || _currentUser == null) return;
 
+            var recent = _ratingService.GetRecentlyRated(_currentUser.Id, 5);
+
+            ConsoleHelper.PrintHeader(" RECENTLY WATCHED");
+
+            if (recent.Count == 0)
+            {
+                ConsoleHelper.WriteLineColor(" You haven't rated any movies yet!", ConsoleColor.Yellow);
+            }
+            else
+            {
+                foreach (var rating in recent)
+                {
+                    var movie = _movieService?.GetMovieById(rating.MovieId);
+                    System.Console.WriteLine($" {movie?.Title} - {rating.Score}/5 on {rating.RatedAt:yyyy-MM-dd HH:mm}");
+                }
+            }
+            ConsoleHelper.PressAnyKey();
+        }
+        static void ExportRecommendations()
+        {
+            if (_recommendationEngine == null || _currentUser == null)
+            {
+                ConsoleHelper.WriteLineColor(" No recommendations available!", ConsoleColor.Yellow);
+                ConsoleHelper.PressAnyKey();
+                return;
+            }
+
+            var recommendations = _recommendationEngine.GetHybridRecommendations(_currentUser, 10);
+            string fileName = $"Recommendations_{_currentUser.Username}_{DateTime.Now:yyyyMMdd_HHmmss}.txt";
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), fileName);
+
+            using (StreamWriter writer = new StreamWriter(filePath))
+            {
+                writer.WriteLine("╔════════════════════════════════════════════════════════════╗");
+                writer.WriteLine("║           AI MOVIE RECOMMENDATIONS                         ║");
+                writer.WriteLine("╚════════════════════════════════════════════════════════════╝");
+                writer.WriteLine();
+                writer.WriteLine($"User: {_currentUser.Username}");
+                writer.WriteLine($"Date: {DateTime.Now}");
+                writer.WriteLine($"Total Recommendations: {recommendations.Count}");
+                writer.WriteLine(new string('═', 60));
+                writer.WriteLine();
+
+                int rank = 1;
+                foreach (var (movie, finalScore) in recommendations)
+                {
+                    writer.WriteLine($"   {rank++}. {movie.Title} ({movie.ReleaseYear})");
+                    writer.WriteLine($"    Director: {movie.Director}");
+                    writer.WriteLine($"    Rating: {movie.AverageRating}/5");
+                    writer.WriteLine($"    Match: {finalScore * 100:F0}%");
+                    writer.WriteLine();
+                }
+            }
+
+            ConsoleHelper.WriteLineColor($" Recommendations saved to: {Path.GetFullPath(fileName)}", ConsoleColor.Green);
+            ConsoleHelper.PressAnyKey();
+        }
     }
 }

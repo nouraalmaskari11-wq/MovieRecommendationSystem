@@ -57,5 +57,17 @@ namespace MovieRecommendationSystem.Console.Recommendation
         {
             return GetHybridRecommendations(user, topN);
         }
+        public List<(Movie movie, double score, double confidence)> GetRecommendationsWithConfidence(User user, int topN = 5)
+        {
+            var recommendations = GetHybridRecommendations(user, topN);
+            var result = new List<(Movie, double, double)>();
+
+            foreach (var (movie, finalScore) in recommendations)
+            {
+                double confidence = finalScore * 100;
+                result.Add((movie, finalScore, confidence));
+            }
+            return result;
+        }
     }
 }

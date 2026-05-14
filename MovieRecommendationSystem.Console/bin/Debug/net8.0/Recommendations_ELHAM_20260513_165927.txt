@@ -1,0 +1,59 @@
+╔════════════════════════════════════════════════════════════╗
+║           AI MOVIE RECOMMENDATIONS                         ║
+╚════════════════════════════════════════════════════════════╝
+
+User: ELHAM
+Date: 5/13/2026 4:59:27 PM
+Total Recommendations: 10
+════════════════════════════════════════════════════════════
+
+   1. Sample Movie 38 (2013)
+    Director: Director 9
+    Rating: 4.8/5
+    Match: 290%
+
+   2. Sample Movie 46 (2021)
+    Director: Director 7
+    Rating: 3.6/5
+    Match: 272%
+
+   3. Sample Movie 18 (2018)
+    Director: Director 9
+    Rating: 4.8/5
+    Match: 267%
+
+   4. Sample Movie 41 (2016)
+    Director: Director 2
+    Rating: 3.1/5
+    Match: 260%
+
+   5. Sample Movie 37 (2012)
+    Director: Director 8
+    Rating: 4.7/5
+    Match: 250%
+
+   6. Sample Movie 36 (2011)
+    Director: Director 7
+    Rating: 4.6/5
+    Match: 236%
+
+   7. Interstellar (2014)
+    Director: Christopher Nolan
+    Rating: 4.7/5
+    Match: 229%
+
+   8. Sample Movie 19 (2019)
+    Director: Director 10
+    Rating: 4.9/5
+    Match: 214%
+
+   9. Sample Movie 8 (2008)
+    Director: Director 9
+    Rating: 3.8/5
+    Match: 214%
+
+   10. Sample Movie 24 (2024)
+    Director: Director 5
+    Rating: 3.4/5
+    Match: 206%
+

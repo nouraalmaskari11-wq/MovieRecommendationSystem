@@ -117,7 +117,10 @@ namespace MovieRecommendationSystem.Console.UI
             System.Console.WriteLine("   4)  Get AI Recommendations");
             System.Console.WriteLine("   5)  My Watch History");
             System.Console.WriteLine("   6)  Remove a Rating");
-            System.Console.WriteLine("   7)  Logout");
+            System.Console.WriteLine("   7)  Trending Movies");
+            System.Console.WriteLine("   8)  Recently Watched");
+            System.Console.WriteLine("   9)  Export Recommendations to File");
+            System.Console.WriteLine("   10) Logout");
             System.Console.WriteLine();
         }
 

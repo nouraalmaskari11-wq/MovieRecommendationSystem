@@ -117,5 +117,9 @@ namespace MovieRecommendationSystem.Console.Services
             System.Console.WriteLine($"Genres: {string.Join(", ", movie.Genres.Select(g => GetGenreName(g)))}");
             System.Console.WriteLine();
         }
+        public List<Movie> GetTrendingMovies(int topN = 5)
+        {
+            return _movies.OrderByDescending(m => m.AverageRating).Take(topN).ToList();
+        }
     }
 }
