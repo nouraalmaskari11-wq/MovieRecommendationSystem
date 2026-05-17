@@ -100,7 +100,7 @@ The system implements **Content-Based Filtering** and **Collaborative Filtering*
 
 ### Steps
 
-```bash
+
 # 1. Clone the repository
 git clone https://github.com/nouraalmaskari11-wq/MovieRecommendationSystem.git
 
@@ -112,6 +112,7 @@ dotnet restore
 
 # 4. Run the application
 dotnet run
+
 
 <img width="919" height="539" alt="Screenshot 2026-05-17 110504" src="https://github.com/user-attachments/assets/0100140b-be13-49a2-b683-c53bd0a25e0f" />
 
