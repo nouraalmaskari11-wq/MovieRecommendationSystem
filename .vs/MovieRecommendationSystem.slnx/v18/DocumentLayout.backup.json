@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\ui\\consolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\ui\\consolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\ui\\consolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\recommendation\\recommendationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\recommendation\\recommendationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\recommendation\\recommendationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\services\\datastorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\services\\datastorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\services\\datastorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\interfaces\\isearchable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\interfaces\\isearchable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\interfaces\\isearchable.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\interfaces\\idatastorage.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\interfaces\\idatastorage.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\interfaces\\idatastorage.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\interfaces\\irecommendable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\interfaces\\irecommendable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\interfaces\\irecommendable.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\movierecommendationsystem\\movierecommendationsystem.console\\data\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|c:\\users\\alham\\onedrive\\desktop\\new folder (2)\\movierecommendationsystem\\movierecommendationsystem.console\\data\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{79717245-6F3B-EF8A-3E8C-67083AD9B3D8}|MovieRecommendationSystem.Console\\MovieRecommendationSystem.Console.csproj|solutionrelative:movierecommendationsystem.console\\data\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -60,37 +60,35 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\AuthService.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Services\\AuthService.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAzwGcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T05:26:05.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T05:26:05.767Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "movies.json",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Data\\movies.json",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Data\\movies.json",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Data\\movies.json",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Data\\movies.json",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Data\\movies.json",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Data\\movies.json",
               "ViewState": "AgIAANACAAAAAAAAAAAAAN0CAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-13T04:29:45.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T04:29:45.232Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ConsoleHelper.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\UI\\ConsoleHelper.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\UI\\ConsoleHelper.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\UI\\ConsoleHelper.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\UI\\ConsoleHelper.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\UI\\ConsoleHelper.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\UI\\ConsoleHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAqwFUBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T04:18:34.649Z",
               "EditorCaption": ""
@@ -99,24 +97,23 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "RatingService.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\RatingService.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\RatingService.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Services\\RatingService.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\RatingService.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\RatingService.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Services\\RatingService.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAcwG4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T04:16:47.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T04:16:47.035Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Program.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Program.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Program.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABkBAAAAAAAAAAAgwEkBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T04:15:29.249Z",
               "EditorCaption": ""
@@ -125,79 +122,73 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DataStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Services\\DataStorageService.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAkwI0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T04:11:00.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T04:11:00.398Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "RecommendationEngine.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Recommendation\\RecommendationEngine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:46:51.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:46:51.569Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Services\\MovieService.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Services\\MovieService.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAADwv3QAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:45:28.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:45:28.59Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IDataStorage.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Interfaces\\IDataStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:44:29.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:44:29.853Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ISearchable.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Interfaces\\ISearchable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:43:39.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:43:39.836Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "IRecommendable.cs",
-              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
+              "DocumentMoniker": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
               "RelativeDocumentMoniker": "MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
-              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
+              "ToolTip": "C:\\Users\\alham\\OneDrive\\Desktop\\New folder (2)\\MovieRecommendationSystem\\MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
               "RelativeToolTip": "MovieRecommendationSystem.Console\\Interfaces\\IRecommendable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:43:10.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:43:10.784Z"
             }
           ]
         }
